@@ -1,0 +1,123 @@
+{"intent" :  [
+  {"tag" :  "greetings",
+   "patterns" : ["hello","ayo","hey","hi","good day","greetings", "what's up","how is going","selena"],
+    "responses" : ["hello","hii !!", "hey!!" ,"Whats'up","hi, we can talk"]
+  },
+  {"tag" :  "goodbye",
+   "patterns" : ["bye","cya","sayonara","goodbye","see ya", "bie","I am leaving","later"],
+    "responses" : ["sad to see you go !!", "bye bye" ,"hope to see you again","talk to you later","Goodbye !"]
+  },
+  {"tag" :  "age",
+   "patterns" : ["what is your age ?","how old are you ?","age?","ay","greetings", "what's up","how is going"],
+    "responses" : ["Existing since big bang !" ,"i am 13.6B years old"]
+  },
+  {"tag" :  "name",
+   "patterns" : ["what is your name ?","what should i call you ?","who are you ?","can you tell me your name?","your name ?", "name?"],
+    "responses" : ["i'm maple", "you can call me maple" ,"i am your Friend"]
+  },
+  {"tag" :  "work",
+   "patterns" : ["what can you do", "what are the things that you can do"],
+    "responses" : ["I can talk to you about some sensitive topics ","You can talk to me anytime"]
+  },
+  {"tag" :  "Anime",
+   "patterns" : ["What are your favorite anime ?","any fav anime ?","what kind of anime you like?","fav anime?"],
+    "responses" : ["My fav anime is Attack on Titan , it is ths best", "Naruto and Attack on Titan" ,"I liked AOT , naruto , Death-note and many more.."]
+  },
+  {"tag" :  "health",
+   "patterns" : ["So how are you ?","how are you feeling today ?","how's the day"],
+    "responses" : ["I am just fine !!", "Feeling Great" ,"Tbh I dont feel anything :)"]
+  },
+  {"tag" :  "question",
+   "patterns" : ["I want to talk","can to talk to me"],
+    "responses" : ["You can talk to me about anything!!", "Go Ahead!!!" ]
+  },
+  {
+    "tag": "depression_A_worthless",
+    "patterns": ["how can I change my feeling of being worthless to everyone?", "I am Feeling worthless", "I do not sleep and I do nothing", "bad feeling", "I'm depressed and worthless","I am depressed"],
+    "responses": [
+      "Bad feelings are part of living.They are the motivation to remove ourselves from situations and relationships which do us more harm than good.Bad feelings do feel terrible.Your feeling of worthlessness may be good in the sense of motivating you to find out that you are much better than your feelings today.",
+      "Feelings of worthlessness is unfortunately common. In fact, most people, if not all, have felt this to some degree at some point in their life. You are not alone. Changing our feelings is like changing our thoughts - it's hard to do. Our minds are so amazing that the minute you change your thought another one can be right there to take it's place .. The idea is that instead of trying to change the thoughts, you change how you respond to them. You learn skills that allow you to manage difficult thoughts and feelings differently so they don't have the same impact on you that they do right now",
+      "First thing I'd suggest is getting the sleep you need or it will impact how you think and feel. I'd look at finding what is going well in your life and what you can be grateful for. I believe everyone has talents and wants to find their purpose in life. I think you can figure it out with some help.",
+      "It must be really difficult to experience what your going through right now.  It takes a lot of courage to reach out. It sounds like you want to get better, but perhaps need some help to get over the hump, Self-care interventions such as journaling your feelings, mindfulness meditation, and regular exercise are all helpful to reconnecting with the present moment and gaining internal motivation. Focusing on one day at a time and bringing your thoughts back to the present can also be beneficial. There is hope!!",
+    "Feelings of worthlessness often originate  from what you learned about yourself when you were young. Improving your self esteem needs focus on that original message from parents, teachers or siblings that may be suppressed.  Most of us need help to uncover the 'lie' because you were born valuable!",
+    "Hello, you sound like you have so much on your mind! I am relieved to hear that you have never tried or have contemplated suicide, but not being able to sleep, feeling worthless, and like you shouldn't be here are big issues that need addressing.Please get around to counseling.  Having someone to listen to you is a gift to yourself. You deserve the help of someone helping you change your feelings of worthlessness. You have not been able to do this alone. It's time to reach out for help.  You can do this! Best to you"]
+  } ,
+  {"tag" :  "depression_B_anxiety",
+   "patterns" : ["How can i find out the cause of my depression","I can't sleep","I have panic attacks","i might have anxiety","I just feel like I’m going through a lot"," I cant get my mind off the things that are bothering me","I am feeling down a lot"],
+    "responses" : ["Answers about our inner lives are most successfully reached from a sense of feeling grounded in oneself.First step is to accept your nervousness and restless sleep.  As often as possible, sleep during day times in order for your body to catch up on its need for rest.Accept too about feeling down.  It is normal to feel down once in a while."
+    ,"Life can bring us all kinds of struggles.   Depression and Anxiety are very common reasons people come into counseling.  Both can be debilitating.  Sometimes when life struggles and stresses build up anxiety and depression become prominent.  Learning tools to ride the waves  of life is a core part of counseling."
+    ,"figure out what stops or inhibits you from doing this.Try new ways of thinking and interacting with other people.  The changed impression you make on others will influence your own view of who you are",
+    "It must be really difficult to experience what your going through right now.  It takes a lot of courage to reach out. It sounds like you want to get better, but perhaps need some help to get over the hump, Self-care interventions such as journaling your feelings, mindfulness meditation, and regular exercise are all helpful to reconnecting with the present moment and gaining internal motivation. Focusing on one day at a time and bringing your thoughts back to the present can also be beneficial. There is hope"]
+  },
+  {"tag" :  "depression_C_Upset",
+   "patterns" : ["I am feeling upset and low","I am feeling upset for no reason","Feeling low"],
+    "responses" : ["Your question is a fascinating one!As humans we have the ability to reflect on situations in our lives.Even if nothing currently goes on in a particular moment, it’s possible you’re reflecting on a serious or upsetting matter.And, our emotions linger within us.Just because a particular moment feels calm, inside your feelings may be the sense of a strong unsettled emotion from the recent past.Good for you to be aware of your own sensitivity to living with awareness of your moods and thoughts."
+    ,"One thing that comes to mind is making a list of some things that happen each day. It could be that there are things that are affecting how upset you are, but because so many other things are going on, you may not notice"
+    ,"Are you eating and sleeping in ways that are typical for you (typically at least two meals per day and roughly 8 hours of sleep that night (may be different depending on your age)? These two ideas are closely related to changes in your mood.From where do you have support? Friends or family?Can you take 5 or 10 minutes per day to do something that you enjoy?"]
+  },
+  {"tag" :  "depression_D_MoodSwing",
+   "patterns" : ["I struggle with depression and mood swings","I am having mood swings","I lack focus, energy, and will do anything"],
+    "responses" : ["It's fun to ride the roller coaster from time to time, isn't it? :)But, it's also weary-making, and leads to drainage that no man or woman can hardly anticipate!Balance comes with proper understanding of the different bodies you possess and how they function.And, to begin, we focus upon your physical, and move right up the latter to the spiritual, and begin cleaning you out.Unbalance is an experience of blocked energies that should be naturally flowing when blockages are removed, what is naturally there flows, and flows beautifully..."]
+  },
+  {"tag" :  "self_harm",
+   "patterns" : ["I self-harm","I automatically want to self-harm."," Sometimes I want to hurt myself"],
+    "responses" : ["In a way, self-harm can present somewhat like an addiction.  According to new research within the field of neuroscience there is a valid explanation for this.  When a person cuts or uses other forms of self harm, the body produces endorphins to help make a person feel better.  If a person was dealing with depression or high anxiety, that might be misinterpreted by the brain as a way to help oneself feel better and a new neural network or map might form (addiction) that would utilize this new behavior"]
+  },
+  {"tag" :  "dep_fear",
+   "patterns" : ["I feel like I will never have a good career","i want to do a alot of things but i do nothing","I have no energy to do anything","I just feel discouraged"],
+    "responses" : ["For starters, commend yourself for being committed to working. You have no idea what is going to happen in the next second, so focusing on thinking you will never have a good career or amount to anything financially is creating a fictitious story.  Remind yourself of that every time the thought pops up",
+    "The false belief that nothing good will happen is sucking out energy you can use on pursuing your career dreams.et up a realistic schedule for yourself to accomplish the steps. As you accomplish each step, see your progress.  Notice that you are moving closer to your goal.  Every day remind yourself why you are pursuing this career.  In fact, write it down and tape it on your bathroom mirror",
+    "When you start to feel discouraged, remember your goal and remind yourself that you have no idea if you'll make it or not but you are going to give it everything you have to find out. Anything worth pursuing is going to take a lot of persistence and hard work. Stay with it! You and your family are worth it!"]
+  },
+  {"tag" :  "low_es",
+   "patterns" : ["I'm a mess physically, mentally, emotionally, and spiritually","I serve no purpose.","I'm incapable of work or anything of value","I am just tired","why should i keep trying"],
+    "responses" : ["'Why do I keep trying?' is a question that might give you some insight into what it is in you that keeps you going , There are people out there needing your support as much as you need theirs. Can you find them? My guess is you've been alone and isolated for a very long time and it's impossible for you to see your worth in this situation. We need mirrors to see our worth and other people are our mirrors. We see our value in their eyes",
+    "You are feeling hopeless and worthless, and your thoughts support these intense emotions. I don't know you, but I strongly believe that you have someone in your life who, if they heard your thoughts, would say 'That's not true. I know where her value is' I believe that there are people who would see your value clearly, even if in small things.",
+    "Do you remember the first time you questioned your worth? What was happening that you blamed yourself for? Can you speak to that child and tell her (or him) that whatever's happening isn't her fault? It's that child who cannot see her own worth, probably because someone treated her as though she had none. That's only a story though; not the truth."]
+  },
+  {"tag" :  "Negativity",
+   "patterns" : ["I'm not the same anymore","I don't know how to get back to who I am.","I'm sad and confused and angry and tired"],
+    "responses" : ["Being tired can really affect almost everyone's ability to work through things that make them sad, confused, or angry, among other emotions. If you're having difficulty sleeping, try to get into a habit of going to bed and waking up close to the same time every day. Also consider only using the bed for sleeping so your brain knows that it's time to sleep when you are in bed",
+    "If you are not sleeping while you are in bed, consider getting up and reading a book or doing something to make you tired before going back to bed. Hopefully you'll be able to establish a pattern.Sometimes sadness and other emotions make sleeping very difficult as well."]
+  },
+  {"tag": "Loneliness",
+    "patterns": ["I feel so alone", "I want someone to love and someone to love me.", "I feel so lonely", "Loneliness","I am so alone and lonely","nobody loves me"],
+    "responses": ["Feeling alone and/or isolated is almost always associated with being depressed. As humans, we need connection and interaction with others in order to feel satisfied. Given that you are frequently thinking about death, I highly recommend that you see a mental health professional as soon as possible to help assess your immediate needs and address any underlying issues that may be contributing to your feelings of loneliness and depression",
+      "By learning about where your sadness originates, engaging in preferred activities, and changing your thought patterns, you should begin feeling relief from the burden of depression. What will likely result, is further opportunity to find social outlets and an increased ability to connect with others. Don't give up",
+    "I urge you to talk to someone close to you, today, about your feelings, and to also seek professional help for your serious thoughts and feelings. We want you to be safe, and your depression is treatable.Loneliness is so painful, and when we feel lonely, this can lead to fears that we are not worthy of love or that the world is just a cold and lonely place. Neither are truths; only thoughts.",
+      "I agree; you need more care and support. No one deserves to feel alone, or like they hate themselves. We're all wonderful, imperfect, complicated people and we're at our best when we're all helping each other"]
+  },
+  {"tag": "Identification",
+    "patterns": ["I'm almost never happy.", "I don't feel anything","i am sad", "I find it easy to make myself feel nothing.", "I just feel so empty inside","I feel empty inside","I don't know why I'm alive"],
+    "responses": ["This is a common question , the symptoms you mention are certainly common signs of depression; rarely happy, emotional numbness, hopelessness, isolation. Depression is very common.You are not alone, and you don't have to suffer. Keep asking questions and you will find your answers!",
+      "it is possible that you have a broader view of yourself and haven't yet uncovered a way of defining your own philosophy of living.Give yourself the time to browse around online, or in person social meet ups, on your interests.  It is possible you will discover entire new areas of life and ways of considering life, that are brand new to you and which connect to your true self"]
+  },
+  {"tag": "Rehab",
+    "patterns": ["How do I get back to my fun, happy self again","Why can't I laugh anymore?","I'm dead inside.", "How can I love myself", "I find it easy to make myself feel nothing."],
+    "responses": ["This is a common question , the symptoms you mention are certainly common signs of depression; rarely happy, emotional numbness, hopelessness, isolation. Depression is very common.You are not alone, and you don't have to suffer. Keep asking questions and you will find your answers!",
+      "it is possible that you have a broader view of yourself and haven't yet uncovered a way of defining your own philosophy of living.Give yourself the time to browse around online, or in person social meet ups, on your interests.  It is possible you will discover entire new areas of life and ways of considering life, that are brand new to you and which connect to your true self"]
+  },
+  {"tag": "Self_question",
+    "patterns": ["I have a lot on my mind, but all I want to do is stay locked in my room and not socialize with anyone", "I have no friends","I have no interest in anything", "I am always tired","I sleep alot still i am tired."],
+    "responses": ["It certainly sounds like you don't like how things are going,Often people struggle with both anxiety and depression but have difficulty determining which is the most important issue. For some, depression is the result of frequently blocked goals and when their predominant issues are evaluated, they discover that they are anxious (worried) about a lot of areas in their life but seem to find no relief",
+      "This may be happening because you and the others are not connected to each other on a level which reaches your emotions.Loneliness may show the absence of feeling a variety of emotions when you are among others.How many friends you have doesn't affect whether you and someone else feel emotionally engaged with one another"]
+  },
+  {"tag": "Spirituality",
+    "patterns": ["I'm struggling with the idea of if God real or not","I dont know god exist or not" , "Should I believe in God or not", "I dont know GOD is real or not"],
+    "responses": ["Your question is actually thoughtful and reflects a true interest to know more about life.No one knows if god is a lie because 'god' is a concept in which people either make up their own definition of this concept, or believe one of the concepts of what god is, handed down by religions.",
+      "To help answer your question, let me begin with the premise that you will never have absolute proof. With that being said, one can look at different phenomena in nature and history and figure what is the statistical probability that they happened randomly. If one comes to the logical conclusion that many are quite improbable, then there must be a guiding force and plan.  May you be successful in your journey.",
+    "The way that I see it is that Humans have always been afraid of life and death, historically we have always tried to understand life, we try to organize it, categorize it, explore it, and we've built up this system, our system and societies system around us to help us define what life and (death) is, this system or way is not real but only a perception of our own value judgements, it is, no matter how you try to argue it, a false system of conditioning, humans have a finite mind and a finite mind cannot ever hope to understand an infinite mind of which a god would be."]
+  },
+  {"tag": "lost_in_mind",
+    "patterns": ["How do I find myself?","I sometimes don't know what's real or not", "I dont know who i am", "I feel like im lost somewhere in my mind"," I have never really known who I am."],
+    "responses": ["This is perhaps the deepest question that one can ask of themselves and the answer is as elusive as the deepest enigma. We are fluid beings, we are never the same from day to day, we learn or unlearn, we evolve or some of us even devolve, we are in a state of constant flux, changing and adapting, like a cloud in the sky that has its shape changed by the wind, life whittles us away and carves us constantly, trying to understand this question is like trying to bite your own teeth, however we can have a sense of what we would call our core and to understand the core, we need to live and to experience, but also to think deeply, analytically, and critically, by engaging with life we get a sense that we are like the Earth itself, inside of us there is a core, just as there is inside our planet but our continents shift and change over time, like those continents so does our own nature shift throughout our lives.",
+      "Start by giving yourself enough quiet and time to remember about yourself what feels steady and consistent in your nature and interactions with others.Give yourself the freedom to your interest in having interests.  Are you motivated because of competing with others or because an activity itself feels satisfying?If you are able to develop a sense of defining yourself without fear of judging yourself, you will start coming close to knowing who you are.",
+    "The older I get, the more I believe that our real task isn't to 'find' ourselves. We're already 100% 'there' What we do have to do is become more mindful of the times when we feel the most alive, most happy, most creative, and most fully engaged with life. It is in those moments that we find ourselves."]
+  },
+  {"tag": "low_confidence",
+    "patterns": ["How do I cope up","how can i motivate myself ", "I can't focus","Not able to focus when I'm doing work"],
+    "responses": ["It sounds like you are feeling helpless and out of control, you are concerned about your behavior, and at the same time you feel compelled to continue it. In working with a therapist, you may be able to get insight into what is motivating these behaviors, develop strategies for taking care of yourself, and get a stronger sense of who you are motivated to be when you are your authentic self.",
+      "As long as you try to reach others expectations you will never feel satisfied or accepted.  How about setting your own expectations for self and strive for those.  Make sure your expectations are reachable and realistic.",
+    "You've already taken the first step. You want to not hate yourself. Self-acceptance is hard! And it's on a spectrum. On one side we have self-hate, on the other extreme; self-love. And then, there is all this stuff in the middle. It kind of looks like thisAnd working toward self-love often means moving around through all these. Becoming aware of your emotions, exploring the parts of you you that easier and harder to accept, self-kindness, self-forgiveness, self-compassion and ultimately self-love"]
+  }
+]}
